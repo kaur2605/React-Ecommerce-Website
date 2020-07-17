@@ -16,7 +16,7 @@ export default class ProductProvider extends Component {
   };
   setProduct = () => {
 
-    const tempProduct = [];
+    let tempProduct = [];
     storeProducts.forEach(item => {
       const singleitem = [...item];
       tempProduct = [...tempProduct, singleitem];

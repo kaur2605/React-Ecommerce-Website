@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
 import Title from "../Title";
 import CartColumn from "./CartColumn";
 import EmptyCart from "./EmptyCart";

@@ -2,13 +2,12 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
-import Product from "./components/Product";
 import ProductList from "./components/ProductList";
 import Cart from "./components/CartFiles/Cart";
 import Details from "./components/Details";
 import Default from "./components/Default";
 import Model from "./components/Model";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
