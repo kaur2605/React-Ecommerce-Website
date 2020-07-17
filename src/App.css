@@ -1,0 +1,41 @@
+:root {
+  --mainblue: #2a2a72;
+  --mainwhite: #f3f3f3;
+  --maindark: #232528;
+  --lightgreen: #77cc6d;
+  --lightblue: #009ffd;
+}
+
+body {
+  font-family: "Noto Serif", serif !important;
+}
+
+.text-title {
+  font-family: "Merienda One", cursive !important;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.text-blue {
+  color: var(--mainblue)
+}
+.text-light {
+  color: var(--lightblue)
+}
+.btn-black{
+  background:transparent;
+  font-size: 1rem !important;
+  text-transform:capitalize;
+  color: var(--maindark);
+  border: 1px solid var(--maindark) !important;
+  border-radius: 0.1rem !important;
+}
+.btn-black:hover{
+  background: var(--maindark);
+  color: var(--mainwhite);
+}
+
+.cart-icon{
+  font-size:1rem;
+  color: var(--mainyellow);
+
+}
