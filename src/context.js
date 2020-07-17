@@ -18,7 +18,7 @@ export default class ProductProvider extends Component {
 
     let tempProduct = [];
     storeProducts.forEach(item => {
-      const singleitem = [...item];
+      let singleitem = [...item];
       tempProduct = [...tempProduct, singleitem];
     })
 
@@ -125,7 +125,8 @@ export default class ProductProvider extends Component {
     this.setState(() => {
       return { cart: [] }
     }, () => {
-      this.addTotals()
+      this.addTotals();
+      this.setProduct()
     });
   }
 
