@@ -11,12 +11,12 @@ export default class Navbar extends Component {
         <Link to="/">
           <img src={img} alt="store" className="navbar-brand" />
         </Link>
-        <Link to="/Home" className="nav-link text-dark">Home</Link>
+        <Link to="/" className="nav-link text-dark">Home</Link>
 
         <ul className="navbar nav align-items-center">
           <li className="nav-item ml-1">
 
-            <Link to="/" className="nav-link text-dark">
+            <Link to="/Products" className="nav-link text-dark">
               {" "}
               Products
             </Link>
