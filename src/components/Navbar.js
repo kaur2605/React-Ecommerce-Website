@@ -11,7 +11,7 @@ export default class Navbar extends Component {
         <Link to="/">
           <img src={img} alt="store" className="navbar-brand" />
         </Link>
-        <Link to="/" className="nav-link text-dark">Home</Link>
+        <Link to="/Home" className="nav-link text-dark">Home</Link>
 
         <ul className="navbar nav align-items-center">
           <li className="nav-item ml-1">
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
 
           </li>
         </ul>
-        <Link to="/" className="nav-link text-dark">About Us</Link>
+        <Link to="/About" className="nav-link text-dark">About Us</Link>
 
         <Link to="/Cart" className="ml-auto">
           <ButtonBox>

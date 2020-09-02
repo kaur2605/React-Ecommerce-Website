@@ -7,6 +7,9 @@ import Cart from "./components/CartFiles/Cart";
 import Details from "./components/Details";
 import Default from "./components/Default";
 import Model from "./components/Model";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Home from "./components/Home"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -16,11 +19,15 @@ function App() {
       <Switch>
         <Route exact path="/" component={ProductList} />
         <Route path="/Details" component={Details} />
+        <Route path="/About" component={About} />
         <Route path="/Cart" component={Cart} />
+        <Route path="/Home" component={Home} />
+
         <Route component={Default} />
       </Switch>
 
       <Model></Model>
+      <Footer />
     </Router>
   );
 }

@@ -22,11 +22,11 @@ export default class Model extends Component {
        <ModelContainer>
         <div className="container">
          <div className="row">
-          <div id="model" className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize p-5">
-           <h3>item added added </h3>
+          <div id="model" className="col-8 mx-auto  my-2 col-md-6 col-lg-4 text-center text-capitalize p-5">
+           <h5>item added added </h5>
            <img src={img} alt="product" className="img-fluid" />
-           <h5>{title}</h5>
-           <h5 className="text-muted">Price : $ {price}</h5>
+           <h6>{title}</h6>
+           <h6 className="text-muted">Price : $ {price}</h6>
            <Link to="/">
             <ButtonBox onClick={() => closeModel()}>Continue shopping
             </ButtonBox>
