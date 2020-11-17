@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
+=======
+import log from "../log.svg";
+>>>>>>> 11c4d15a9b7a0d6990cc3cb2923724aeb9147983
 import styled from "styled-components";
 import ButtonBox from "./Button";
 
