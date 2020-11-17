@@ -8,6 +8,7 @@
 
 body {
   font-family: "Noto Serif", serif !important;
+  background-color: gray;
 }
 
 .text-title {
@@ -23,7 +24,7 @@ body {
 }
 .btn-black{
   background:transparent;
-  font-size: 1rem !important;
+  font-size: 0.5rem !important;
   text-transform:capitalize;
   color: var(--maindark);
   border: 1px solid var(--maindark) !important;
@@ -49,4 +50,7 @@ body {
 
 .footer-bottom{
       border-top: 1px solid #e4e4e4 !important;
+}
+.logo{
+  margin-right: 50px;
 }

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import img from "../img.svg";
 import styled from "styled-components";
 import ButtonBox from "./Button";
 
@@ -8,8 +7,8 @@ export default class Navbar extends Component {
   render() {
     return (
       <Navwrapper className="navbar navbar-expand-sm  bg-primary px-sm-5">
-        <Link to="/">
-          <img src={img} alt="store" className="navbar-brand" />
+        <Link to="/" className= "logo">
+          <span>TheShopSmart</span>
         </Link>
         <Link to="/" className="nav-link text-dark">Home</Link>
 
@@ -37,10 +36,10 @@ export default class Navbar extends Component {
   }
 }
 const Navwrapper = styled.nav`
-  background: var(--lightgreen) !important;
+  background:var(--lightgreen)!important;  
 
   .nav-link {
     font-size: 1.3rem;
     color: var(--mainwhite) !important;
   }
-`;
+`
