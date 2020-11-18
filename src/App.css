@@ -84,4 +84,22 @@ body {
 .sect{
   text-align: center;
   margin-top:30px;
+
+.logo1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  color: rgb(255, 0, 0);
+font-weight: bold;
+font-variant: small-caps;
+
+}
+
+.logo2{
+  font-family: lucida 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;
+color: darkgreen;
+font-weight: bold;
+font-style: italic;
+
+
 }

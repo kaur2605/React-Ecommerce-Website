@@ -7,11 +7,9 @@ export default class Navbar extends Component {
   render() {
     return (
       <Navwrapper className="navbar navbar-expand-sm  bg-primary px-sm-5">
-        <Link to="/" className="logo">
-          <span className="logo">TheShopSmart</span>
-        </Link>
-        <Link to="/" className="nav-link text-dark">
-          Home
+        <Link to="/">
+          <span className="logo1">TheShop</span>
+          <span className="logo2">Smart</span>
         </Link>
 
         <ul className="navbar nav align-items-center">
