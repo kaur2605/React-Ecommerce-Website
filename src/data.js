@@ -197,16 +197,159 @@ export const storeProducts = [
     total: 0
   }];
 
-export const detailProduct = {
-  id: 1,
-  title: "Google Pixel - Black",
-  img: "img/product-1.png",
-  price: 10,
-  company: "google",
-  info:
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  inCart: false,
-  count: 0,
-  total: 0
-};
+export const detailProduct = [
+  {
+    id: 1,
+    title: "GOLDEN RAISINS 100G",
+    img: "img/item-1.jpg",
+    price: 10,
+    company: "NATCO",
+    info:
+      "Also known as sultanas, they can be used in salads, rice dishes, and with vegetables such as cauliflower. They have a full, fruity flavour and are made from grapes.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
 
+  {
+    id: 2,
+    title: "BAKED CHILLI FLAVOURED CASHEWS 150G",
+    img: "img/item-2.jpg",
+    price: 10,
+    company: "NATCO",
+    info:
+      "Perfect for snacking! These baked cashews are a healthier kind of snack as they have less oil than their fried versions.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 3,
+    title: "BALTI MIX 325G",
+    img: "img/item-3.jpg",
+    price: 10,
+    company: "NATCO",
+    info:
+      "Perfect taste for your mouth.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 4,
+    title: "BOMBAY MIX 325G",
+    img: "img/item-4.jpg",
+    price: 10,
+    company: "NATCO",
+    info:
+      "Bombay mix or Chiwda is an authentic Indian snack mix consisting of a mix of spicy fried lentils, peanuts, chickpea flour ghatia, corn and peas. This delicious snack can be enjoyed anytime, and is great for serving at parties.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 5,
+    title: "CHILLI FLAVOURED PEANUTS 200G",
+    img: "img/item-5.jpg",
+    price: 10,
+    company: "NATCO",
+    info:
+      "Perfect for snacking!",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 6,
+    title: "PEANUT GACHAK (PEANUT BRITTLE) 400G",
+    img: "img/item-6.jpg",
+    price: 30,
+    company: "NATCO",
+    info:
+      "A sweet snack made from peanuts.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 7,
+    title: "ROASTED & SALTED PISTACHIO NUTS 100G",
+    img: "img/item-7.jpg",
+    price: 30,
+    company: "NATCO",
+    info:
+      "Premium quality jumbo pistachio nuts, perfectly roasted and salted to make the ultimate snack.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 8,
+    title: "SPICY COATED PEANUTS 150G",
+    img: "img/item-8.jpg",
+    price: 20,
+    company: "NATCO",
+    info:
+      "A delicious moreish snack.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 9,
+    title: "BIRYANI MASALA MANGAL 50G",
+    img: "img/item-9.jpg",
+    price: 20,
+    company: "MANGAL",
+    info:
+      "The ready mixed base for all Biryani rice dishes. Can be used for Vegetable, Meat or Chicken Biryanis",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 10,
+    title: "CHICKEN MASALA MANGAL 100G",
+    img: "img/item-10.jpg",
+    price: 20,
+    company: "MANGAL",
+    info:
+      "The ready mixed base for all Chicken curries. Alternatively sprinkle a little on the skin of roasting chicken or sprinkle lightly as a seasoning.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 11,
+    title: "MEAT MASALA MANGAL 100G",
+    img: "img/item-11.jpg",
+    price: 10,
+    company: "MANGAL",
+    info:
+      "A spice mixture to help you create a delicious meat dish. Ingredients: Coriander, chillies, turmeric, garlic, ginger, gram flour, cumin, cinnamon, black pepper, bay-leaves, fennel, fenugreek, mango powder, salt.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+
+  {
+    id: 12,
+    title: "PAVBHAJI MASALA MANGAL 100G",
+    img: "img/item-12.jpg",
+    price: 20,
+    company: "MANGAL",
+    info:
+      "Pavbhaji is a very slow cooked mixed vegetable dish. This spice mixture will help you bring the perfect seasoning to the dish. Contains red chilli, coriander, cumin, cassia, ginger, cloves, black pepper, bay leaves, caraway, mango powder, star anise and salt.",
+    inCart: false,
+    count: 0,
+    total: 0
+  }];

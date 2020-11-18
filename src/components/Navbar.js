@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-=======
-import log from "../log.svg";
->>>>>>> 11c4d15a9b7a0d6990cc3cb2923724aeb9147983
+import log1 from "../log1.png";
 import styled from "styled-components";
 import ButtonBox from "./Button";
 
@@ -11,7 +8,8 @@ export default class Navbar extends Component {
   render() {
     return (
       <Navwrapper className="navbar navbar-expand-sm  bg-primary px-sm-5">
-        <Link to="/" className= "logo">
+        <Link to="/" className="logo">
+          <img src={log1}></img>
           <span>TheShopSmart</span>
         </Link>
         <Link to="/" className="nav-link text-dark">Home</Link>
