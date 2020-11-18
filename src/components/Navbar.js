@@ -8,9 +8,10 @@ export default class Navbar extends Component {
   render() {
     return (
       <Navwrapper className="navbar navbar-expand-sm  bg-primary px-sm-5">
-        <Link to="/" className="logo">
-          <img src={log1}></img>
-          <span>TheShopSmart</span>
+        <Link to="/">
+          <span className="logo1">TheShop</span>
+          <span className="logo2">Smart</span>
+
         </Link>
         <Link to="/" className="nav-link text-dark">Home</Link>
 
