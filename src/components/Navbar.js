@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, {Component} from "react"
 import {Link} from "react-router-dom"
-import styled from "styled-components";
-import ButtonBox from "./Button";
+import styled from "styled-components"
+import ButtonBox from "./Button"
 import log from "../log.png"
 
 export default class Navbar extends Component {
@@ -10,7 +10,7 @@ export default class Navbar extends Component {
       <Navwrapper className="navbar navbar-expand-sm  bg-primary px-sm-5">
         <Link to="/" className="logo">
           <img src={log} />
-          <span className = "logo">TheShopSmart</span>
+          <span className="logo">TheShopSmart</span>
         </Link>
         <Link to="/" className="nav-link text-dark">
           Home
@@ -40,7 +40,7 @@ export default class Navbar extends Component {
   }
 }
 const Navwrapper = styled.nav`
-  background:var(--lightgreen)!important;  
+  background: var(--lightgreen) !important;
 
   .nav-link {
     font-size: 1.3rem;
