@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { ProductConsumer } from "../context"
 import PropTypes from "prop-types"
 
-export default class BestProduct extends Component {
+export default class PopularProduct extends Component {
   render() {
     const { id, img, price, title, inCart } = this.props.item
     return (
@@ -55,8 +55,8 @@ export default class BestProduct extends Component {
   }
 }
 
-BestProduct.propTypes = {
- item: PropTypes.shape({
+PopularProduct.propTypes = {
+  item: PropTypes.shape({
     id: PropTypes.number,
     img: PropTypes.string,
     title: PropTypes.string,

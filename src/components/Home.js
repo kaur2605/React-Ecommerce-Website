@@ -1,6 +1,6 @@
 import React from "react"
 import ric from "../ric.jpg"
-import BestProductList from "./BestProductList"
+import PopularProductList from "./PopularProductList"
 
 export default function Home() {
   return (
@@ -8,22 +8,22 @@ export default function Home() {
       <div class="bann">
         <img src={ric} alt="log" width="100%"></img>
         <h2 className="welcome">
-          <span class="spn">Welcome to Online grocery Store</span>
+          <span className="spn">Welcome to Online grocery Store</span>
         </h2>
       </div>
       <div className="sect">
-        <h3>Hurry up !Order Now</h3>
-        <p>
+        <h3 className="PP">Hurry up!!! Order Now</h3>
+        <p><em>
           Explore our full range of lentils, spices, nuts, chutneys, snacks and
-          more. Check out our new products and special offers below!
+          more. Check out our new products and special offers below!!!</em>
         </p>
 
         <strong>
-          FREE Shipping on orders over kr 500! kr49 Shipping on orders below
-          kr500 FREE Shipping on ALL ORDERS to local areas around Copenhagen
+          FREE Shipping on orders above 500kr. Shipping charge is 49kr. on orders below
+          500kr. Shipping on ALL ORDERS to local areas around Copenhagen.
         </strong>
       </div>
-      <BestProductList />
+      <PopularProductList />
     </div>
   )
 }

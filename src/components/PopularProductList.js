@@ -1,19 +1,19 @@
-import React, {Component} from "react"
-import BestProduct from "./BestProduct"
+import React, { Component } from "react"
+import PopularProduct from "./PopularProduct"
 import Title from "./Title"
-import {ProductConsumer} from "../context"
+import { ProductConsumer } from "../context"
 
-export default class BestProductList extends Component {
+export default class PopularProductList extends Component {
   render() {
     return (
       <div className="container">
-        <Title name="Popular" title="Products"></Title>
+        <h2 className="PP">Popular Products</h2>
         <div className="row">
           <ProductConsumer>
             {(value) => {
               return value.items.map((item) => {
                 console.log(item.id)
-                return <BestProduct key={item.id} item={item}></BestProduct>
+                return <PopularProduct key={item.id} item={item}></PopularProduct>
               })
             }}
           </ProductConsumer>
