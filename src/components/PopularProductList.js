@@ -12,8 +12,9 @@ export default class PopularProductList extends Component {
           <ProductConsumer>
             {(value) => {
               return value.items.map((item) => {
-                console.log(item.id)
-                return <PopularProduct key={item.id} item={item}></PopularProduct>
+                return (
+                  <PopularProduct key={item.id} item={item}></PopularProduct>
+                )
               })
             }}
           </ProductConsumer>

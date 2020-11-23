@@ -40,18 +40,11 @@ export default class Navbar extends Component {
         </Navwrapper>
 
         <Navwrapper className="navbar navbar-expand-sm  bg-primary px-sm-5">
-          <Link to="/">
-            <span className="items">Essentials</span>
-          </Link>
-
-          <ul className="navbar nav align-items-center">
-
-            <li className="nav-item ml-1">
-              <Link to="/" className="nav-link text-dark">
-                <span className="items">Essentials</span><i class="fas fa-angle-down"></i>
-              </Link>
-              <div className="essentials-list">
-                <a href="#">All</a>
+          <ul className="navbar nav items align-items-center">
+            <li className="nav-item dropdown ml-1">
+                <span>Essentials</span><i class="fas fa-angle-down dropdown"></i>          
+              <div className="Dropdown-list">
+                <Link to = '/Products'> All</Link>
                 <a href="#">Tinned Products</a>
                 <a href="#">Ghee/Oils</a>
                 <a href="#">Teas/Drinks</a>
@@ -60,12 +53,11 @@ export default class Navbar extends Component {
               </div>
             </li>
 
-
             <li className="nav-item ml-1">
               <Link to="/" className="nav-link text-dark">
-                <span className="items">Grains</span><i class="fas fa-angle-down nav-icon"></i>
+                <span>Grains</span><i class="fas fa-angle-down nav-icon"></i>
               </Link>
-              <div className="grains-list">
+              <div className="Dropdown-list">
                 <a href="#">All</a>
                 <a href="#">Rice/Quinoa</a>
                 <a href="#">Flour/Milk Powder</a>
@@ -79,7 +71,7 @@ export default class Navbar extends Component {
               <Link to="/" className="nav-link text-dark">
                 <span className="items">Lentils</span><i class="fas fa-angle-down"></i>
               </Link>
-              <div className="lentils-list">
+              <div className="Dropdown-list">
                 <a href="#">All</a>
                 <a href="#">Dried Lentils, Beans/Peas</a>
                 <a href="#">Soya Products</a>
@@ -91,7 +83,7 @@ export default class Navbar extends Component {
               <Link to="/" className="nav-link text-dark">
                 <span className="items">Spices</span><i class="fas fa-angle-down nav-icon"></i>
               </Link>
-              <div className="spices-list">
+              <div className="Dropdown-list">
                 <a href="#">All</a>
                 <a href="#">Spice/Herb Jars</a>
                 <a href="#">Food Colourings/Essences</a>
@@ -103,7 +95,7 @@ export default class Navbar extends Component {
               <Link to="/" className="nav-link text-dark">
                 <span className="items">Snacks</span><i class="fas fa-angle-down nav-icon"></i>
               </Link>
-              <div className="snacks-list">
+              <div className="Dropdown-list">
                 <a href="#">All</a>
                 <a href="#">Makana Pops</a>
                 <a href="#">Pappadoms</a>
