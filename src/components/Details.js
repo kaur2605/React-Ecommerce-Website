@@ -12,7 +12,8 @@ export default class Details extends Component {
         return (
           <div className="container py-5">
             <div className="row">
-              <div className="col-10 mx-auto text-center text-blue my-5">
+              <div className="col-10 mx-auto d-flex text-center text-blue my-5 ">
+              <Link to="/"> <i class="fas fa-arrow-left"></i><ButtonBox className = "mr-5" >Back to Products</ButtonBox></Link>
                 <h2>{title}</h2>
               </div>
             </div>
@@ -30,7 +31,7 @@ export default class Details extends Component {
                 </h2>
                 <h4 className="text-uppercase, text-muted">made by: {company}</h4>
                 <h4 className="text-uppercase, text-blue">
-                  <strong>Price: <span>$</span>
+                  <strong>Price: <span>DKK</span>
                     {price}
                   </strong>
                 </h4>
@@ -38,13 +39,6 @@ export default class Details extends Component {
                 <p className="text-muted"> {info}</p>
 
                 <div>
-                  <Link to="/">
-
-                    <ButtonBox>
-                      Back to Products
-</ButtonBox>
-
-                  </Link>
 
                   <ButtonBox
                     cart
