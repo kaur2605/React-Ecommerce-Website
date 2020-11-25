@@ -42,67 +42,53 @@ export default class Navbar extends Component {
         <Navwrapper className="navbar navbar-expand-sm  bg-primary px-sm-5">
           <ul className="navbar nav items align-items-center">
             <li className="nav-item dropdown ml-1">
-                <span>Essentials</span><i class="fas fa-angle-down dropdown"></i>          
+              <span className="items">Essentials</span><i class="fas fa-angle-down dropdown"></i>
               <div className="Dropdown-list">
-                <Link to = '/Products'> All</Link>
-                <a href="#">Tinned Products</a>
-                <a href="#">Ghee/Oils</a>
-                <a href="#">Teas/Drinks</a>
-                <a href="#">Vegetables</a>
-                <a href="#">Flour</a>
+                <Link to='/Products' className="dropdown-items"> All</Link>
+                <Link to='/Products' className="dropdown-items"> Jar Products</Link>
+                <Link to='/Products' className="dropdown-items"> Ghee/Oils</Link>
+                <Link to='/Products' className="dropdown-items"> Teas/Drinks</Link>
+                <Link to='/Products' className="dropdown-items"> Flour</Link>
               </div>
             </li>
 
-            <li className="nav-item ml-1">
-              <Link to="/" className="nav-link text-dark">
-                <span>Grains</span><i class="fas fa-angle-down nav-icon"></i>
-              </Link>
+            <li className="nav-item dropdown ml-1">
+              <span className="items">Grains</span><i class="fas fa-angle-down dropdown"></i>
               <div className="Dropdown-list">
-                <a href="#">All</a>
-                <a href="#">Rice/Quinoa</a>
-                <a href="#">Flour/Milk Powder</a>
-                <a href="#">Wheat Grains/Couscous</a>
-                <a href="#">Corn</a>
-                <a href="#">Soya</a>
+                <Link to='/Products' className="dropdown-items"> All</Link>
+                <Link to='/Products' className="dropdown-items"> Rice</Link>
+                <Link to='/Products' className="dropdown-items"> Flour</Link>
+                <Link to='/Products' className="dropdown-items"> Soya</Link>
               </div>
             </li>
 
-            <li className="nav-item ml-1">
-              <Link to="/" className="nav-link text-dark">
-                <span className="items">Lentils</span><i class="fas fa-angle-down"></i>
-              </Link>
+            <li className="nav-item dropdown ml-1">
+              <span className="items">Lentils</span><i class="fas fa-angle-down"></i>
               <div className="Dropdown-list">
-                <a href="#">All</a>
-                <a href="#">Dried Lentils, Beans/Peas</a>
-                <a href="#">Soya Products</a>
-                <a href="#">Tinned Lentils/Beans</a>
+                <Link to='/Products' className="dropdown-items"> All</Link>
+                <Link to='/Products' className="dropdown-items"> Dried Lentils, Beans/Peas</Link>
+                <Link to='/Products' className="dropdown-items"> Soya Products</Link>
               </div>
             </li>
 
-            <li className="nav-item ml-1">
-              <Link to="/" className="nav-link text-dark">
-                <span className="items">Spices</span><i class="fas fa-angle-down nav-icon"></i>
-              </Link>
+            <li className="nav-item dropdown ml-1">
+              <span className="items">Spices</span><i class="fas fa-angle-down nav-icon"></i>
               <div className="Dropdown-list">
-                <a href="#">All</a>
-                <a href="#">Spice/Herb Jars</a>
-                <a href="#">Food Colourings/Essences</a>
-                <a href="#">Sugar</a>
+                <Link to='/Products' className="dropdown-items"> All</Link>
+                <Link to='/Products' className="dropdown-items"> Spice/Herb Jars</Link>
+                <Link to='/Products' className="dropdown-items"> Spice Blends/Mixes</Link>
+                <Link to='/Products' className="dropdown-items"> Food Colourings/Essences</Link>
+                <Link to='/Products' className="dropdown-items"> Sugar</Link>
               </div>
             </li>
 
-            <li className="nav-item ml-1">
-              <Link to="/" className="nav-link text-dark">
-                <span className="items">Snacks</span><i class="fas fa-angle-down nav-icon"></i>
-              </Link>
+            <li className="nav-item dropdown ml-1">
+              <span className="items">Snacks</span><i class="fas fa-angle-down nav-icon"></i>
               <div className="Dropdown-list">
-                <a href="#">All</a>
-                <a href="#">Makana Pops</a>
-                <a href="#">Pappadoms</a>
-                <a href="#">Chutneys, Pickles/Sauces</a>
-                <a href="#">Namkeen/Daria Lentil Snacks</a>
-                <a href="#">Flavoured Nuts</a>
-                <a href="#">Raisins</a>
+                <Link to='/Products' className="dropdown-items"> All</Link>
+                <Link to='/Products' className="dropdown-items"> Chutneys, Pickles/Sauces</Link>
+                <Link to='/Products' className="dropdown-items"> Namkeen/Daria Lentil Snacks</Link>
+                <Link to='/Products' className="dropdown-items"> Flavoured Nuts</Link>
               </div>
             </li>
           </ul>

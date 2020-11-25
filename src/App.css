@@ -34,6 +34,7 @@ body {
 .btn-black:hover{
   background: var(--maindark);
   color: var(--mainwhite);
+  
 }
 
 .cart-icon{
@@ -90,7 +91,6 @@ body {
   font-size: 30px;
   color: rgb(255, 0, 0);
 font-weight: bold;
-
 }
 
 .logo2{
@@ -120,8 +120,8 @@ font-style: italic;
 
 .nav-item{
 font-family: sans-serif, cursive;
-font-weight: bold;
-font-size: larger;
+font-weight: bold !important;
+font-size: 20px;
 color: darkgreen; 
 position: relative;
 display: inline-block;
@@ -133,9 +133,8 @@ display: inline-block;
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 0px;
+} 
 
-  
-}
 .search{
   display: flex;
   margin-left: 30px;
@@ -148,6 +147,7 @@ display: inline-block;
   width:100%;
   height:40px;
 }
+
 .search-icon{
   width: 50px;
   height:40px;
@@ -156,20 +156,42 @@ display: inline-block;
 }
 
 .Dropdown-list{
- display: none;
+  display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: rgb(130, 226, 130);
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(41, 24, 24, 0.2);
   padding: 12px 16px;
   z-index: 1;
+  max-width: 500%;
 }
+
 .dropdown{
   position: relative;
   display: inline-block;
 }
 
 .dropdown:hover .Dropdown-list{
-  display: flex;
+  display: flex; 
   flex-direction: column;
+
 }
+
+
+.items{
+  width: 40%;
+  color: brown;
+  margin-top:0px;
+}
+
+.dropdown-items{
+  color: rgb(104, 61, 61);
+}
+
+.flex-card{
+border: 2px solid black;
+display: flex;
+flex-wrap: wrap;
+}
+
+
