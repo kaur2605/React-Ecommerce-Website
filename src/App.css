@@ -188,10 +188,5 @@ display: inline-block;
   color: rgb(104, 61, 61);
 }
 
-.flex-card{
-border: 2px solid black;
-display: flex;
-flex-wrap: wrap;
-}
 
 
