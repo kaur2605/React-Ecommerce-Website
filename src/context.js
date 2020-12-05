@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import { storeProducts, detailProduct } from "./data";
+import { storeProducts, detailProduct ,specialProducts} from "./data";
 
 const ProductContext = React.createContext();
 
 export default class ProductProvider extends Component {
   state = {
+    items:[],
     products: [],
     detailProduct: detailProduct,
     cart: [],
@@ -17,9 +18,23 @@ export default class ProductProvider extends Component {
 
   componentDidMount() {
     this.setProduct();
+    this.setitem();
   }
-  setProduct = () => {
+  
+setitem = ()=>{
+  let tempitem = [];
+  specialProducts.forEach(item => {
+    let oneitem = { ...item };
+    tempitem = [...tempitem, oneitem];
+  })
+  console.log(tempitem);
+  this.setState(
+    () => {
+      return { items: tempitem}
+    })
+}
 
+  setProduct = () => {
     let tempProduct = [];
     storeProducts.forEach(item => {
       let singleitem = { ...item };
@@ -28,7 +43,7 @@ export default class ProductProvider extends Component {
 
     this.setState(
       () => {
-        return { products: tempProduct }
+        return { products: tempProduct}
       })
   }
 
