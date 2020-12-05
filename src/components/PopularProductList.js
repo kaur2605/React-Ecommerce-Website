@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import PopularProduct from "./PopularProduct"
-import Title from "./Title"
 import { ProductConsumer } from "../context"
 
 export default class PopularProductList extends Component {
