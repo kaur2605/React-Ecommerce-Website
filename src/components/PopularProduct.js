@@ -3,16 +3,17 @@ import { Link } from "react-router-dom"
 import styled from "styled-components"
 import { ProductConsumer } from "../context"
 import PropTypes from "prop-types"
-export default class Product extends Component {
+
+export default class PopularProduct extends Component {
   render() {
-    const { id, img, price, title, inCart } = this.props.product
+    const { id, img, price, title, inCart } = this.props.item
     return (
       <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3">
         <div className="card">
           <ProductConsumer>
             {(value) => (
               <div
-                className="img-container p-5"
+                className="img-container  p-5"
                 onClick={() => value.handleDetail(id)}
               >
                 <Link to="/Details">
@@ -49,8 +50,8 @@ export default class Product extends Component {
   }
 }
 
-Product.propTypes = {
-  product: PropTypes.shape({
+PopularProduct.propTypes = {
+  item: PropTypes.shape({
     id: PropTypes.number,
     img: PropTypes.string,
     title: PropTypes.string,
