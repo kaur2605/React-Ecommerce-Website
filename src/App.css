@@ -25,15 +25,15 @@ body {
 }
 .btn-black{
   background:transparent;
-  font-size: 0.5rem !important;
+  font-size: 1rem !important;
   text-transform:capitalize;
   color: var(--maindark);
   border: 1px solid var(--maindark) !important;
   border-radius: 0.1rem !important;
 }
 .btn-black:hover{
-  background: var(--maindark);
-  color: var(--mainwhite);
+  background: lightgreen;
+  color: white;
   
 }
 
@@ -188,5 +188,8 @@ display: inline-block;
   color: rgb(104, 61, 61);
 }
 
-
+.count{
+   font-size: 100px;
+   font-weight: 100;
+}
 
